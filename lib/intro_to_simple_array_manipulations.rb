@@ -31,3 +31,19 @@ end
 def using_concat(ary_1, ary_2)
   ary_1.concat(ary_2)
 end
+
+def shift_with_args(ary)
+  ary.shift(2)
+end
+
+def using_shift(ary)
+  ary.shift
+end
+
+def pop_with_args(ary)
+  ary.pop(2)
+end
+
+def using_pop(ary)
+  ary.pop
+end
